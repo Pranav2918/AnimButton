@@ -1,4 +1,6 @@
-Provide visual feedbacks with fully customized AnimButton
+Flutter animated button package: Elegant UI interactions with smooth animations, customizable styles, and seamless integration across the platforms.
+
+(demo.mp4)
 
 ### Features
 
@@ -23,7 +25,7 @@ Add the latest version of package to your pubspec.yaml (and run dart pub get):
 
 ```dart
 dependencies:
-  fancy_containers: ^latest_version
+  animbutton: ^latest_version
 ```
 
 ## Usage
