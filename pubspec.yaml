@@ -2,7 +2,6 @@ name: flutter_animbutton
 description: "Provide visual feedbacks with fully customized AnimButton"
 version: 0.0.1
 homepage: https://github.com/Pranav2918/AnimButton
-license: MIT
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
