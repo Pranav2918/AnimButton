@@ -1,6 +1,6 @@
-name: flutter_animbutton
-description: "Provide visual feedbacks with fully customized AnimButton"
-version: 0.0.1
+name: animbutton
+description: "Flutter animated button package: Elegant UI interactions with smooth animations, customizable styles, and seamless integration across the platforms."
+version: 1.0.0
 homepage: https://github.com/Pranav2918/AnimButton
 
 environment:

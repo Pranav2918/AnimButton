@@ -1,5 +1,5 @@
+import 'package:animbutton/animbutton.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_animbutton/flutter_animbutton.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
