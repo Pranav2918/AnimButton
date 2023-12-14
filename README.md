@@ -1,6 +1,6 @@
 Flutter animated button package: Elegant UI interactions with smooth animations, customizable styles, and seamless integration across the platforms.
 
-(demo.mp4)
+![demo](https://github.com/Pranav2918/AnimButton/assets/69794884/6c7d014e-1fd1-46e7-a746-ea283db4a78d)
 
 ### Features
 
