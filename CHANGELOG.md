@@ -1,3 +1,7 @@
-## 0.0.1 (Initial Version)
+## 1.0.0 
 
-## 1.0.0 (Added example and code optimization)
+- Added example and code optimization
+
+## 1.0.2 
+
+- Provide option to customize begin and end to button properties
