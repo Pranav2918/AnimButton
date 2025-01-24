@@ -1,6 +1,6 @@
 name: animbutton
 description: "Flutter animated button package: Elegant UI interactions with smooth animations, customizable styles, and seamless integration across the platforms."
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/Pranav2918/AnimButton
 
 environment:
