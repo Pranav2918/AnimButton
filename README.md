@@ -23,7 +23,7 @@ Add `animbutton` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  animbutton: ^1.0.4
+  animbutton: <latest_version>
 ```
 
 Then run:
