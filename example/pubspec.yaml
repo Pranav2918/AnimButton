@@ -1,6 +1,5 @@
 name: example
-description: "A new Flutter project."
-publish_to: none
+description: "Flutter animated button package: Elegant UI interactions with smooth animations, customizable styles, and seamless integration across the platforms."
 homepage: https://github.com/Pranav2918/AnimButton
 repository: https://github.com/Pranav2918/AnimButton
 # The following line prevents the package from being accidentally published to
