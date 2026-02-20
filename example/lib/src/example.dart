@@ -7,21 +7,74 @@ class Example extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('AnimButton Showcase'),
+        centerTitle: true,
+      ),
       body: Center(
-        child: AnimButton(
-            buttonColor: Colors.black,
-            height: 45.0,
-            width: MediaQuery.of(context).size.width * 0.40,
-            animationCurve: Curves.easeIn,
-            borderRadius: 10.0,
-            textStyle: const TextStyle(
-                color: Colors.white,
-                fontSize: 20.0,
-                fontWeight: FontWeight.normal),
-            label: 'Anim Button',
-            onPressed: () {
-              debugPrint("Button Tapped");
-            }),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // Basic Button
+            AnimButton(
+              label: 'Basic Button',
+              onPressed: () => debugPrint("Basic Button Tapped"),
+            ),
+            const SizedBox(height: 20),
+
+            // Gradient Button with Shadow
+            AnimButton(
+              width: 200,
+              height: 55,
+              borderRadius: 12,
+              gradient: const LinearGradient(
+                colors: [Colors.blue, Colors.purple],
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.blue.withOpacity(0.4),
+                  blurRadius: 10,
+                  offset: const Offset(0, 4),
+                ),
+              ],
+              label: 'Gradient Button',
+              onPressed: () => debugPrint("Gradient Button Tapped"),
+            ),
+            const SizedBox(height: 20),
+
+            // Button with Custom Child (Icon + Text)
+            AnimButton(
+              width: 180,
+              height: 50,
+              buttonColor: Colors.orangeAccent,
+              onPressed: () => debugPrint("Custom Child Button Tapped"),
+              child: const Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.star, color: Colors.white),
+                  SizedBox(width: 8),
+                  Text(
+                    'Get Started',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 20),
+
+            // Scale Customization
+            AnimButton(
+              label: 'Slow',
+              duration: const Duration(milliseconds: 300),
+              animationEnd: 0.95,
+              buttonColor: Colors.teal,
+              onPressed: () => debugPrint("Slow Button Tapped"),
+            ),
+          ],
+        ),
       ),
     );
   }
